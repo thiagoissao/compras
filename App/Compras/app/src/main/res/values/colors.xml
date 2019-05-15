@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="primary_light">#FFCCBC</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#212121</color>
+
+    <color name="salmon">#F56C57</color>
+    <color name="redOrange">#fd8147</color>
+    <color name="lettuce">#B8D20B</color>
+    <color name="verdeFinal">#81b622</color>
+    <color name="verdeInicial">#59981a</color>
+</resources>

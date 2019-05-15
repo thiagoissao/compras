@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Compras</string>
+    <string name="action_settings">Settings</string>
+    <string name="newList">Nova Lista</string>
+    <string name="navigation_drawer_open">Open Drawer Navigation</string>
+    <string name="navigation_drawer_close">Close Drawer Navigation</string>
+    <string name="quantity">Quantidade</string>
+    <string name="price">Preço</string>
+    <string name="tipoMoeda">R$</string>
+    <string name="productName">Nome do Produto</string>
+    <string name="productPrice">Preço</string>
+    <string name="productQtd">Quantidade</string>
+    <string name="productObservations">Observações</string>
+    <string name="btnSave">Salvar</string>
+    <string name="btnExcluir">Excluir</string>
+    <string name="addCarrinho">Adicionar ao carrinho</string>
+    <string name="remCarrinho">Remover do carrinho</string>
+    <string name="necessarioNome">É necessário um nome para o produto</string>
+    <string name="necessarioPreco">Preço Inválido</string>
+    <string name="necessarioQtd">Quantidade Inválida</string>
+    <string name="messageAlertEmptyList">Lista Vazia, clique em + para adicionar algum item</string>
+    <string name="messageExcluir">Deseja excluir este item?</string>
+    <string name="alertTitle">Removendo um item</string>
+    <string name="about">Sobre</string>
+    <string name="share">Compartilhar</string>
+    <string name="sendListTo">Enviar lista para</string>
+    <string name="reset">Resetar</string>
+
+
+    <!-- ATIVIDADE SOBRE -->
+    <string name="titulo">Compras - Lista de Mercado</string>
+    <string name="informacoes">
+        Aplicativo 100% gratuito, desenvolvido por Thiago Issao Yasunaka. O objetivo do app é facilitar as compras e tornando-a
+        mais organizada, controlar gastos e compartilhá-las por meio de mensagens para outros aplicativos.
+    </string>
+    <string name="developer">Desenvolvedor:</string>
+    <string name="linkIcon">Ícones disponibilizados em: icons8.com.br</string>
+</resources>

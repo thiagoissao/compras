@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:elevation="20dp">
+
+    <TextView
+            android:id="@+id/messageExcluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/messageExcluir"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/notoderifscmedium"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:orientation="horizontal"
+            android:layout_below="@+id/messageExcluir"
+            android:layout_centerHorizontal="true">
+
+        <ImageButton
+                android:id="@+id/btnCancelar"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_cancelar"
+                android:layout_below="@+id/messageExcluir"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+        />
+
+        <ImageButton
+                android:id="@+id/btnExcluir"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_confirmar"
+                android:layout_below="@+id/messageExcluir"
+                android:layout_toRightOf="@+id/btnCancelar"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/lista0"
+              android:title="@string/newList"
+              android:icon="@drawable/ic_list_nav_drawer"/>
+
+        <item android:id="@+id/lista1"
+              android:title="@string/newList"
+              android:icon="@drawable/ic_list_nav_drawer"/>
+
+        <item android:id="@+id/lista2"
+              android:title="@string/newList"
+              android:icon="@drawable/ic_list_nav_drawer"/>
+
+        <item android:id="@+id/lista3"
+              android:title="@string/newList"
+              android:icon="@drawable/ic_list_nav_drawer"/>
+
+        <item android:id="@+id/lista4"
+              android:title="@string/newList"
+              android:icon="@drawable/ic_list_nav_drawer"/>
+    </group>
+</menu>

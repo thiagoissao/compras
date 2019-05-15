@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start"
+        tools:context=".activity.MainActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="match_parent"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+            <include layout="@layout/include_toolbar"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:scrollbars="vertical"
+                android:scrollbarStyle="outsideOverlay"/>
+
+        <TextView
+                android:id="@+id/emptyList"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/messageAlertEmptyList"
+                android:textSize="50sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:background="@drawable/info_dev_style"
+                android:elevation="4dp"
+                android:padding="10dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/nanumpenscriptregular"
+                android:shadowColor="@android:color/black"
+                android:elegantTextHeight="true"
+        />
+
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginBottom="@dimen/fab_margin"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginRight="50dp"
+                android:layout_gravity="bottom|right"
+                style="@style/Widget.MaterialComponents.FloatingActionButton"
+                android:src="@android:drawable/ic_input_add"
+                android:tint="@android:color/background_dark"
+                android:elevation="10dp"
+                android:backgroundTint="@color/colorPrimary" tools:srcCompat="@tools:sample/avatars"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <!--
+        <android.support.design.widget.NavigationView
+                android:id="@+id/nav_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:fitsSystemWindows="true"
+                app:menu="@menu/nav_drawer_menu"/>
+
+                -->
+
+</android.support.v4.widget.DrawerLayout>
